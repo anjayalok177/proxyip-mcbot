@@ -1,4 +1,5 @@
-[
+export default function handler(req, res) {
+  res.status(200).json([
   {
     "host": "47.82.162.22",
     "port": 1080
@@ -539,4 +540,5 @@
     "host": "47.82.163.213",
     "port": 1080
   }
-]
+  ]);
+}
